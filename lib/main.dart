@@ -79,7 +79,7 @@ class MyApp extends StatelessWidget {
               fontWeight: FontWeight.w500,
               fontFamily: 'Inter',
             ),
-            subtitle1: TextStyle(color: Colors.white),
+            subtitle1: TextStyle(color: Colors.black),
           ),
           iconTheme: const IconThemeData(
             color: Color.fromARGB(255, 14, 14, 17),

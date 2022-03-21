@@ -29,10 +29,10 @@ class HomePage extends StatelessWidget {
             onFieldSubmitted: (_) {
               fpi.addField(_textFieldController.text);
               _textFieldController.clear();
-              FocusScope.of(ctx).unfocus();
+              FocusScope.of(context).unfocus();
               Navigator.pop(context);
             },
-//            style: TextStyle(color: Colors.white),
+            style: Theme.of(context).textTheme.subtitle2,
           ),
           actions: <Widget>[
             TextButton(
@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 fpi.addField(_textFieldController.text);
                 _textFieldController.clear();
-                FocusScope.of(ctx).unfocus();
+                FocusScope.of(context).unfocus();
                 Navigator.pop(context);
               },
             ),
